@@ -1,7 +1,7 @@
 {
   "name": "website",
   "private": true,
-  "homepage": "https://tiarnola.github.io/",
+  "homepage": "https://tiarnola.github.io/website/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
