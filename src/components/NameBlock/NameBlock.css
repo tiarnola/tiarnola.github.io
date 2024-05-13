@@ -1,0 +1,11 @@
+.name-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 2rem
+}
+
+.headline {
+    font-weight: 800;
+    font-size: xx-large;
+}

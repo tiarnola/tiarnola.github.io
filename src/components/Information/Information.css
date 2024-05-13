@@ -1,0 +1,138 @@
+.contain-info {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  border: 0 solid #e5e7eb;
+}
+
+.bottom-section {
+  display: none;
+}
+
+.divider-1 {
+  height: 5.5rem;
+}
+
+.divider, .divider-2 {
+  height: 5.5rem;
+}
+
+.info-main ul {
+  list-style-type: none;
+}
+
+.tech-stack {
+  list-style-type: circle;
+}
+
+#title {
+  display: none;
+}
+
+#name {
+  display: none;
+}
+
+#about,
+#experience,
+#education,
+#projects {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: inherit;
+}
+
+.margin-div {
+  height: 150px;
+}
+
+.main-headings {
+  text-align: center;
+  display: none;
+}
+
+.mordor {
+  width: 300px;
+}
+
+.info-container {
+  display: flex;
+}
+
+.cv-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cv-link:hover {
+  color: aqua;
+  cursor: pointer;
+
+  .arrow {
+    margin-top: -3px;
+    margin-left: 5px;
+  }
+}
+
+.arrow {
+  width: 1rem;
+  margin-left: 1px;
+  margin-top: 2px;
+  transition: margin 0.2s;
+}
+
+
+@media (max-width: 768px) {
+  .main-headings {
+    display: block;
+  }
+
+  .info-main {
+    margin-top: 0px;
+    overflow-y: scroll;
+    height: 100%;
+  }
+
+  .contain-info {
+    width: 100%;
+    padding: 0px 30px;
+  }
+
+  #title {
+    display: flex;
+  }
+
+  #name {
+    display: flex;
+  }
+
+  #about,
+  #experience,
+  #education,
+  #projects {
+    gap: 1rem;
+  }
+
+  .divider {
+    height: 4rem;
+  }
+
+  .divider-2 {
+    display: none;
+  }
+
+  .divider-1 {
+    display: none;
+  }
+
+  .bottom-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+  }
+}
