@@ -37,7 +37,7 @@ const Information = () => {
                 the Dutch Market in 2023. I subsequently returned working
                 in-house for FDM Group until March 2024.
               </p>
-              <br></br>
+              {/* <br></br>
               <p>Programming Stack:</p>
               <br></br>
               <ul>
@@ -52,7 +52,7 @@ const Information = () => {
                 <li>- SQL</li>
                 <li>- PHP</li>
                 <li>- AJAX</li>
-              </ul>
+              </ul> */}
             </div>
           </section>
           <section id="experience">
@@ -144,8 +144,8 @@ const Information = () => {
           </section>
           <div className="bottom-section">
             <p>tiarnanguinee@gmail.com</p>
-            <br></br>
-            <p>+353 87 233 5205</p>
+            {/* <br></br>
+            <p>+353 87 233 5205</p> */}
           </div>
         </div>
         <div className="border-info"></div>
