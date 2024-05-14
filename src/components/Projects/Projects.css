@@ -28,6 +28,7 @@
 
 .left-section {
   width: 30%;
+  overflow-x: hidden;
 }
 
 .right-section {
