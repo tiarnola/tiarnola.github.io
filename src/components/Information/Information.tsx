@@ -1,6 +1,7 @@
 import Experience from "../Experience/Experience";
 import Projects from "../Projects/Projects";
 import "./Information.css";
+import note from "../../assets/img/Note App.png"
 import crypto from "../../assets/img/crypto.png";
 import todo from "../../assets/img/todo.png";
 import gym from "../../assets/img/gym.png";
@@ -37,22 +38,6 @@ const Information = () => {
                 the Dutch Market in 2023. I subsequently returned working
                 in-house for FDM Group until March 2024.
               </p>
-              {/* <br></br>
-              <p>Programming Stack:</p>
-              <br></br>
-              <ul>
-                <li>- React</li>
-                <li>- JavaScript/TypeScript</li>
-                <li>- Three.js</li>
-                <li>- HTML</li>
-                <li>- CSS</li>
-                <li>- Java</li>
-                <li>- Spring Boot</li>
-                <li>- Python</li>
-                <li>- SQL</li>
-                <li>- PHP</li>
-                <li>- AJAX</li>
-              </ul> */}
             </div>
           </section>
           <section id="experience">
@@ -108,9 +93,9 @@ const Information = () => {
             <h1 className="main-headings">PROJECTS</h1>
             <Projects
               name={"Full Stack Note project"}
-              picture={tetris}
+              picture={note}
               description={
-                "Full-stack web application where a user can add and delete notes. Registering and login authentication is done using JWT tokens. Backend code is developed using Django. For frontend I used React with TypeScript and all styling was done using Tailwind. I used a choreo databse for deployment."
+                "Full-stack web application where a user can add and delete notes. Registering and login authentication is done using JWT tokens. Backend code is developed using Django. front with React + TS. Styled with Tailwind CSS. Database hosted on Choreo."
               }
               skills={[
                 "Django",
