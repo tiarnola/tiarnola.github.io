@@ -107,6 +107,25 @@ const Information = () => {
             </div>
             <h1 className="main-headings">PROJECTS</h1>
             <Projects
+              name={"Full Stack Note project"}
+              picture={tetris}
+              description={
+                "Full-stack web application where a user can add and delete notes. Registering and login authentication is done using JWT tokens. Backend code is developed using Django. For frontend I used React with TypeScript and all styling was done using Tailwind. I used a choreo databse for deployment."
+              }
+              skills={[
+                "Django",
+                "Python",
+                "React",
+                "TypeScript",
+                "Tailwind CSS",
+                "JWT",
+                "Choreo"
+              ]}
+              website={
+                "https://58864d91-c6de-4d0a-8418-3a19f78d0bdc.e1-eu-north-azure.choreoapps.dev"
+              }
+            ></Projects>
+            <Projects
               name={"Crypto Market Tracker"}
               picture={crypto}
               description={

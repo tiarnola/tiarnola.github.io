@@ -1,4 +1,4 @@
-import pdf from "../../assets/pdf/Tiarnan Guinee Curriculum Vitae.pdf"
+import pdf from "../../assets/pdf/TGuinee_CV.pdf"
 
 export const CV = () => {
 
