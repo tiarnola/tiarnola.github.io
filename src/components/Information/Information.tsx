@@ -20,7 +20,7 @@ const Information = () => {
               <p>
                 I am a full stack developer with extensive experience in modern
                 web technologies. My tech stack includes React and
-                TypeScript for front-end development, as well as Django and
+                TypeScript, Node.js, as well as Django and
                 Spring Boot microservices for back-end. 
               </p>
               <br></br>
