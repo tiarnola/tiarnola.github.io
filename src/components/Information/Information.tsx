@@ -19,9 +19,9 @@ const Information = () => {
             <div>
               <p>
                 I am a full stack developer with extensive experience in modern
-                web technologies. My tech stack includes React and
-                TypeScript, Node.js, as well as Django and
-                Spring Boot microservices for back-end. 
+                web technologies. My tech stack includes React and TypeScript
+                for frontend, and Node.js, Django and Spring Boot microservices
+                for back-end.
               </p>
               <br></br>
               <p>
