@@ -19,13 +19,11 @@ const Information = () => {
             <div>
               <p>
                 I am a full stack developer with extensive experience in modern
-                web technologies. My expertise includes working with React and
+                web technologies. My tech stack includes React and
                 TypeScript for front-end development, as well as Django and
-                Spring Boot microservices for back-end solutions. With a solid
-                foundation in both client-side and server-side development, I
-                build robust, scalable applications that meet diverse business
-                needs.
+                Spring Boot microservices for back-end. 
               </p>
+              <br></br>
               <p>
                 Having graduated in engineering, and subsequently worked as a
                 Process Engineer, I made the switch into the programming space
