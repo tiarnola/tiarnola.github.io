@@ -1,7 +1,7 @@
 import Experience from "../Experience/Experience";
 import Projects from "../Projects/Projects";
 import "./Information.css";
-import note from "../../assets/img/Note App.png"
+import note from "../../assets/img/Note App.png";
 import crypto from "../../assets/img/crypto.png";
 import todo from "../../assets/img/todo.png";
 import gym from "../../assets/img/gym.png";
@@ -17,6 +17,15 @@ const Information = () => {
             <div className="divider-1"></div>
             <h1 className="main-headings">ABOUT</h1>
             <div>
+              <p>
+                I am a full stack developer with extensive experience in modern
+                web technologies. My expertise includes working with React and
+                TypeScript for front-end development, as well as Django and
+                Spring Boot microservices for back-end solutions. With a solid
+                foundation in both client-side and server-side development, I
+                build robust, scalable applications that meet diverse business
+                needs.
+              </p>
               <p>
                 Having graduated in engineering, and subsequently worked as a
                 Process Engineer, I made the switch into the programming space
@@ -95,7 +104,7 @@ const Information = () => {
               name={"Full Stack Note project"}
               picture={note}
               description={
-                "Full-stack web application where a user can add and delete notes. Registering and login authentication is done using JWT tokens. Backend code is developed using Django. front with React + TS. Styled with Tailwind CSS. Database hosted on Choreo."
+                "Full-stack web application where users can add and delete notes. Registering and login authentication is done using JWT tokens. Backend code is developed using Django, frontend with React + TS. Styled with Tailwind CSS. Database hosted on Choreo."
               }
               skills={[
                 "Django",
@@ -104,7 +113,7 @@ const Information = () => {
                 "TypeScript",
                 "Tailwind CSS",
                 "JWT",
-                "Choreo"
+                "Choreo",
               ]}
               website={
                 "https://58864d91-c6de-4d0a-8418-3a19f78d0bdc.e1-eu-north-azure.choreoapps.dev"
