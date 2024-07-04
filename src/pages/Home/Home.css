@@ -1,7 +1,6 @@
 .main {
   height: 100vh;
   background: #00021a;
-  /* background: radial-gradient(circle at center, #00021a, #2603b3); */
   overflow: hidden;
   display: flex;
   justify-content: center;
