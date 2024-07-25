@@ -99,7 +99,7 @@ const Information = () => {
               <p></p>
             </div>
             <h1 className="main-headings">PROJECTS</h1>
-            <Projects
+            {/* <Projects
               name={"Betting Application"}
               picture={betting}
               description={
@@ -112,7 +112,7 @@ const Information = () => {
               website={
                 "https://tiarnola.github.io/BettingX/"
               }
-            ></Projects>
+            ></Projects> */}
             <Projects
               name={"Full Stack Note project"}
               picture={note}
