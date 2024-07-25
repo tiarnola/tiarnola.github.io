@@ -6,7 +6,7 @@ import crypto from "../../assets/img/crypto.png";
 import todo from "../../assets/img/todo.png";
 import gym from "../../assets/img/gym.png";
 import tetris from "../../assets/img/tetrisPic.png";
-import betting from "../../assets/img/betting.png";
+// import betting from "../../assets/img/betting.png";
 import Link from "../Link/Link";
 
 const Information = () => {
