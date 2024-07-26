@@ -6,7 +6,7 @@ import crypto from "../../assets/img/crypto.png";
 import todo from "../../assets/img/todo.png";
 import gym from "../../assets/img/gym.png";
 import tetris from "../../assets/img/tetrisPic.png";
-// import betting from "../../assets/img/betting.png";
+import betting from "../../assets/img/betting.png";
 import Link from "../Link/Link";
 
 const Information = () => {
@@ -99,7 +99,7 @@ const Information = () => {
               <p></p>
             </div>
             <h1 className="main-headings">PROJECTS</h1>
-            {/* <Projects
+            <Projects
               name={"Betting Application"}
               picture={betting}
               description={
@@ -112,7 +112,7 @@ const Information = () => {
               website={
                 "https://tiarnola.github.io/BettingX/"
               }
-            ></Projects> */}
+            ></Projects>
             <Projects
               name={"Full Stack Note project"}
               picture={note}
