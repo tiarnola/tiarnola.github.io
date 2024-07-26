@@ -103,11 +103,12 @@ const Information = () => {
               name={"Betting Application"}
               picture={betting}
               description={
-                "Betting application where users can browse markets, get prices and see volumes of trades on each event."
+                "Single-page betting application where users can browse markets, get prices and see volumes of trades on each event. The app uses mock data to mimic API integration."
               }
               skills={[
                 "React",
                 "TypeScript",
+                "API"
               ]}
               website={
                 "https://tiarnola.github.io/BettingX/"
