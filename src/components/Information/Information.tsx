@@ -3,7 +3,7 @@ import Projects from "../Projects/Projects";
 import "./Information.css";
 import note from "../../assets/img/Note App.png";
 import crypto from "../../assets/img/crypto.png";
-import todo from "../../assets/img/todo.png";
+// import todo from "../../assets/img/todo.png";
 import gym from "../../assets/img/gym.png";
 import tetris from "../../assets/img/tetrisPic.png";
 import betting from "../../assets/img/betting.png";
@@ -151,7 +151,7 @@ const Information = () => {
               skills={["Three.js", "JavaScript", "HTML", "CSS"]}
               website={"https://tiarnola.com/gym/gymdesigner.html"}
             ></Projects>
-            <Projects
+            {/* <Projects
               name={"Todo App"}
               picture={todo}
               description={
@@ -159,7 +159,7 @@ const Information = () => {
               }
               skills={["React", "CSS"]}
               website={"https://tiarnola.github.io/to-do-app/"}
-            ></Projects>
+            ></Projects> */}
             <Projects
               name={"Tetris Game"}
               picture={tetris}
