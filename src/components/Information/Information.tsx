@@ -46,6 +46,7 @@ const Information = () => {
                 the Dutch Market in 2023. I subsequently returned working
                 in-house for FDM Group until March 2024.
               </p>
+              <br></br>
               <p>
                 I am now studying Quality Systems Validation with Data Analytics in Munster Technological University.
               </p>
