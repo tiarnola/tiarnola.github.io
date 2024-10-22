@@ -5,6 +5,13 @@
     gap: 2rem
 }
 
+.role-student-info {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    gap: 1rem;
+}
+
 .headline {
     font-weight: 800;
     font-size: xx-large;
