@@ -19,36 +19,40 @@ const Information = () => {
             <h1 className="main-headings">ABOUT</h1>
             <div>
               <p>
-                I am a Validation Engineer and Software Developer with extensive experience in modern
-                web technologies. My tech stack includes React and TypeScript
-                for frontend, and Node.js, Django and Spring Boot microservices
-                for back-end.
+                I am a Validation Engineer and Software Developer with
+                experience in modern web technologies. My tech stack includes
+                React and TypeScript for frontend development, and Node.js,
+                Django, and Spring Boot microservices for backend development.
               </p>
-              <br></br>
+              <br />
               <p>
-                Having graduated in engineering, and subsequently worked as a
-                Process Engineer, I made the switch into the programming space
-                in 2019 by starting an Interactive Media masters in University
-                College Cork.
+                Having graduated in engineering and subsequently worked as a
+                Process Engineer, I transitioned into software development in
+                2019 by beginning an Interactive Media Master's degree at
+                University College Cork.
               </p>
-              <br></br>
+              <br />
               <p>
-                Here I garnered an interest in Front-End Development and decide
-                to pursue this as a career choice. My first Development job
-                arrived with FDM Group in 2022 and here I undertook high
-                intensive training in a range of front-end and back-end coding
-                languages.
+                During this time, I developed an interest in Front-End
+                Development and decided to pursue it as a career. My first
+                software development role came with FDM Group in 2022, where I
+                completed intensive training across a range of frontend and
+                backend technologies.
               </p>
-              <br></br>
+              <br />
               <p>
-                As a contractor for FDM, I began working for Shell Energy Retail
-                in Rotterdam as a Front-End Developer before the company left
-                the Dutch Market in 2023. I subsequently returned working
-                in-house for FDM Group until March 2024.
+                As a contractor with FDM, I worked with Shell Energy Retail in
+                Rotterdam as a Front-End Developer, contributing to web
+                application development before the company exited the Dutch
+                market in 2023. I subsequently returned to FDM Group, working
+                in-house until March 2024.
               </p>
-              <br></br>
+              <br />
               <p>
-                Since January 2025 I have been working with Dataworks Limited as a Computer Systems Validation Enginner.
+                Since January 2025, I have been working with Dataworks Limited
+                as a Computer Systems Validation Engineer, supporting the
+                validation and delivery of software solutions within regulated
+                industries.
               </p>
             </div>
           </section>
@@ -63,7 +67,7 @@ const Information = () => {
                 "Computer Systems Validation (CSV) Engineer working on the validation and delivery software solutions used within the Medical Devices and Pharmaceutical sectors"
               }
               skills={["CSV", "IQ/OQ/PQ", "Power Platform", "GMP"]}
-              website={"https://www.fdmgroup.com"}
+              website={"https://www.dataworks.ie"}
             />
             <Experience
               date={"10/2023 - 03/2024"}
@@ -119,14 +123,8 @@ const Information = () => {
               description={
                 "Single-page betting application where users can browse markets, get prices and see volumes of trades on each event. The app uses mock data to mimic API integration."
               }
-              skills={[
-                "React",
-                "TypeScript",
-                "API"
-              ]}
-              website={
-                "https://tiarnola.github.io/betting-application/"
-              }
+              skills={["React", "TypeScript", "API"]}
+              website={"https://tiarnola.github.io/betting-application/"}
             ></Projects>
             <Projects
               name={"Full Stack Note project"}
