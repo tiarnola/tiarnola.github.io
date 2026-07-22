@@ -19,7 +19,7 @@ const Information = () => {
             <h1 className="main-headings">ABOUT</h1>
             <div>
               <p>
-                I am a full stack developer with extensive experience in modern
+                I am a Validation Engineer and Software Developer with extensive experience in modern
                 web technologies. My tech stack includes React and TypeScript
                 for frontend, and Node.js, Django and Spring Boot microservices
                 for back-end.
