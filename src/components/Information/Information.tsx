@@ -48,13 +48,23 @@ const Information = () => {
               </p>
               <br></br>
               <p>
-                I am now studying Quality Systems Validation with Data Analytics in Munster Technological University.
+                Since January 2025 I have been working with Dataworks Limited as a Computer Systems Validation Enginner.
               </p>
             </div>
           </section>
           <section id="experience">
             <div className="divider"></div>
             <h1 className="main-headings">EXPERIENCE</h1>
+            <Experience
+              date={"01/2025 - Current"}
+              position={"Validation Engineer"}
+              company="Dataworks, Waterford"
+              description={
+                "Computer Systems Validation (CSV) Engineer working on the validation and delivery software solutions used within the Medical Devices and Pharmaceutical sectors"
+              }
+              skills={["CSV", "IQ/OQ/PQ", "Power Platform", "GMP"]}
+              website={"https://www.fdmgroup.com"}
+            />
             <Experience
               date={"10/2023 - 03/2024"}
               position={"Software Developer"}
