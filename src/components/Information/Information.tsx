@@ -125,7 +125,7 @@ const Information = () => {
                 "API"
               ]}
               website={
-                "https://tiarnola.github.io/BettingX/"
+                "https://tiarnola.github.io/betting-application/"
               }
             ></Projects>
             <Projects
